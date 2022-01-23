@@ -16,20 +16,20 @@ export const RadioLabel = styled.label`
     background-color: ${({ theme }) => theme.colors.white};
     margin: 0;
     padding: 0;
-    width: 16px;
-    height: 16px;
-    min-height: 16px;
+    width: 1.6rem;
+    height: 1.6rem;
+    min-height: 1.6rem;
     border: 1px solid ${({ theme }) => theme.colors.lynch};
     border-radius: 50%;
     display: grid;
     place-content: center;
-    margin-right: 5px;
+    margin-right: 0.5rem;
   }
 
   input[type='radio']::before {
     content: '';
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     transform: scale(0);
     transition: 120ms transform ease-in-out;
@@ -42,9 +42,9 @@ export const RadioLabel = styled.label`
 `;
 
 export const Radio = styled.div`
-  margin: 10px 0;
+  margin: 1rem 0;
 
   input {
-    margin-right: 10px;
+    margin-right: 1rem;
   }
 `;

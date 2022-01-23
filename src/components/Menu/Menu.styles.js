@@ -7,7 +7,7 @@ export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
   font-size: 1.4rem;
   font-weight: 700;
-  padding: 0px 16px;
+  padding: 0 1.6rem;
 
   :hover {
     color: ${({ theme }) => theme.colors.white};
@@ -40,9 +40,9 @@ export const MenuWrapper = styled.ul`
 
   ${breakpoint.down.md`
     position: absolute;
-    top: 53px;
-    left: -20px;
-    right: -20px;
+    top: 5.3rem;
+    left: -2rem;
+    right: -2rem;
     background-color: ${({ theme }) => theme.colors.porcelain};
     display: flex;
     flex-direction: column;

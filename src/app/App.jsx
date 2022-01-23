@@ -1,17 +1,17 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { ThemeProvider } from '../styles/ThemeProvider';
+import { ROUTES } from '../routes';
 import { theme } from '../styles/theme';
+import { ThemeProvider } from '../styles/ThemeProvider';
 import { NavigationBar } from '../components/NavigationBar';
 import { Footer } from '../components/Footer';
-import { Insurance } from '../modules/Insurance';
-import { AboutUs } from '../modules/AboutUs/AboutUs';
-import { ClaimReport } from '../modules/ClaimReport/ClaimReport';
-import { Contact } from '../modules/Contact/Contact';
-import { ROUTES } from '../routes';
-import { NotFoundPage } from '../modules/NotFoundPage';
 import { SkipLink } from '../components/SkipLink';
+import { Insurance } from '../modules/Insurance';
+import { AboutUs } from '../modules/AboutUs';
+import { ClaimReport } from '../modules/ClaimReport';
+import { Contact } from '../modules/Contact';
+import { NotFoundPage } from '../modules/NotFoundPage';
 
 const { HOME_PAGE, CONTACT, CLAIM_REPORT, ABOUT_US } = ROUTES;
 

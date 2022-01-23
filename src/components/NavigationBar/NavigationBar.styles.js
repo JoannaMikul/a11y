@@ -18,7 +18,7 @@ export const Navigation = styled.nav`
 `;
 
 export const NavContent = styled.div`
-  margin: 0px auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -11,5 +11,5 @@ export const Fieldset = styled.fieldset`
 export const Legend = styled.legend`
   color: ${({ theme }) => theme.colors.black090};
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 `;

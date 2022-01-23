@@ -3,13 +3,13 @@ import styled, { css } from 'styled-components';
 export const StyledInput = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
+  margin: 2rem 0;
 
   label {
     color: ${({ theme }) => theme.colors.black090};
     display: block;
     font-weight: 700;
-    margin-bottom: 8px;
+    margin-bottom: 0.8rem;
   }
 
   input {
@@ -17,13 +17,13 @@ export const StyledInput = styled.div`
     color: ${({ theme }) => theme.colors.black090};
 
     background-color: ${({ theme }) => theme.colors.transparent};
-    font-size: 14px;
+    font-size: 1.4rem;
 
     width: 100%;
-    margin: 0px;
+    margin: 0;
     min-height: 40px;
-    padding-left: 11px;
-    padding-right: 11px;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
 
     :focus {
       outline: solid 3px ${({ theme }) => theme.colors.selectiveYellow};
@@ -55,7 +55,7 @@ export const StyledInput = styled.div`
 
 export const ValidationMessage = styled.span`
   color: ${({ theme }) => theme.colors.flushMahogany};
-  margin-top: 8px;
+  margin-top: 0.8rem;
   font-size: 1.4rem;
   ::first-letter {
     text-transform: uppercase;
@@ -66,8 +66,8 @@ export const RequiredText = styled.p`
   color: ${({ theme }) => theme.colors.flushMahogany};
   font-size: 1.2rem;
   margin: 0;
-  margin-left: 5px;
-  margin-bottom: 6px;
+  margin-left: 0.5rem;
+  margin-bottom: 0.6rem;
 `;
 
 export const LabelWrapper = styled.div`
